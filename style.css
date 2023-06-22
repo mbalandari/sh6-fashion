@@ -43,6 +43,10 @@ section {
     z-index: 5;
 }
 
+.open {
+    transform: translateX(0);
+}
+
 nav {
     position: absolute;
     left: 4rem;
