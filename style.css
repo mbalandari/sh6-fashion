@@ -78,11 +78,27 @@ section img {
     font-size: 4rem;
     line-height: 1.125;
     font-weight: 700;
+    transition: transform 0.5s ease;
+}
+
+.hero .copy {
     position: absolute;
     right: 0;
     top: 50%;
     width: 22.5rem;
     transform: translateY(-50%);
+}
+
+.hero:hover h2 {
+    transform: scale(1.15);
+}
+
+.hero:hover img {
+    transform: rotate(-5deg);
+}
+
+.hero img {
+    transition: transform 0.5s ease;
 }
 
 .first-part {
