@@ -107,3 +107,17 @@ section img {
     font-size: 2rem;
     font-weight: 200;
 }
+
+.second-part {
+    background-image: url(./assets/image_3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 13.75rem 1.25rem 11.25rem 1.25rem;
+    text-align: center;
+}
+
+.second-part h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
