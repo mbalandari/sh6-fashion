@@ -1,0 +1,46 @@
+html {
+    font-size: 100%; /*16px*/
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* img {
+    width: 100%;
+    max-width: 100%;
+} */
+
+body {
+    font-family: 'Biryani', sans-serif;
+    line-height: 1.2;
+    color: #000;
+}
+
+header {
+    padding: 3.75rem 1.25rem;
+    text-align: center;
+}
+
+.menu {
+    background-color: #f8cede;
+    width: 25rem;
+    position: fixed;
+    top: 0;left: 0;
+    height: 100%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+section img {
+    width: 100%;
+    max-width: 100%;
+}
