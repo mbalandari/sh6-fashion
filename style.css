@@ -28,6 +28,10 @@ header {
     text-align: center;
 }
 
+section {
+    margin-bottom: 3.75rem;
+}
+
 .menu {
     background-color: #f8cede;
     width: 25rem;
@@ -79,5 +83,27 @@ section img {
     top: 50%;
     width: 22.5rem;
     transform: translateY(-50%);
+}
 
+.first-part {
+    padding-left: 22.5rem;
+    position: relative;
+}
+
+.first-part .copy {
+    position: absolute;
+    top: 3.2rem;
+    left: 0;
+    width: 30rem;
+}
+
+.first-part h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.first-part p {
+    font-size: 2rem;
+    font-weight: 200;
 }
