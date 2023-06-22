@@ -16,6 +16,11 @@ body {
     font-family: 'Biryani', sans-serif;
     line-height: 1.2;
     color: #000;
+    max-width: 60rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -51,10 +56,28 @@ nav a {
 section img {
     width: 100%;
     max-width: 100%;
+    display: block;
 }
 
 .menu-toggle {
     position: fixed;
     top: 1rem;
     left: 1rem;
+}
+
+.hero {
+    padding-right: 16.25rem;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    line-height: 1.125;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 22.5rem;
+    transform: translateY(-50%);
+
 }
