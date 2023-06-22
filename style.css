@@ -78,7 +78,6 @@ section img {
     font-size: 4rem;
     line-height: 1.125;
     font-weight: 700;
-    transition: transform 0.5s ease;
 }
 
 .hero .copy {
@@ -94,10 +93,10 @@ section img {
 }
 
 .hero:hover img {
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
-.hero img {
+.hero h2, .hero img {
     transition: transform 0.5s ease;
 }
 
@@ -124,6 +123,18 @@ section img {
     font-weight: 200;
 }
 
+.first-part .copy, .first-part img {
+    transition: transform 0.5s ease;
+}
+
+.first-part:hover .copy {
+    transform: scale(1.1) translateX(1.25rem);
+}
+
+.first-part:hover img {
+    transform: rotate(6deg);
+}
+
 .second-part {
     background-image: url(./assets/image_3.jpg);
     background-position: center;
@@ -136,4 +147,10 @@ section img {
     font-size: 4rem;
     font-weight: 700;
     color: #fff;
+    transition: all 0.5s ease;
+}
+
+.second-part:hover h2 {
+    transform: scale(0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
